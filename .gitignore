@@ -136,3 +136,23 @@ dev/
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React build
+/build
+/dist
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Project specific
+my-react-app/
+buienradar.db

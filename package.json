@@ -1,0 +1,52 @@
+{
+  "name": "weather-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A real-time weather data visualization dashboard for Dutch weather stations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "node server.cjs"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.22.1",
+    "sqlite3": "^5.1.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/weather-dashboard.git"
+  },
+  "keywords": [
+    "weather",
+    "dashboard",
+    "react",
+    "visualization",
+    "netherlands"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
